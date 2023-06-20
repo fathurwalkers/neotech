@@ -4,11 +4,11 @@ namespace App\Http\Livewire\Homepage;
 
 use Livewire\Component;
 
-class Services extends Component
+class Portfolio extends Component
 {
     public function render()
     {
-        return view('livewire.homepage.services')
+        return view('livewire.homepage.portfolio')
         ->extends('layouts.home-layouts')
         ->section('main-content');
     }

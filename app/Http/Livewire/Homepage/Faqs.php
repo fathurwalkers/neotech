@@ -4,11 +4,11 @@ namespace App\Http\Livewire\Homepage;
 
 use Livewire\Component;
 
-class Services extends Component
+class Faqs extends Component
 {
     public function render()
     {
-        return view('livewire.homepage.services')
+        return view('livewire.homepage.faqs')
         ->extends('layouts.home-layouts')
         ->section('main-content');
     }
